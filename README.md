@@ -12,3 +12,15 @@ announcements: |/usr/local/sbin/email2GroupMe.py -c /etc/email2GroupMe.ini
 
 This will cause sendmail|postfix to provide the email message as stdin to the scirpt. 
 
+You can register for a bot ID from the groupme admin page.
+https://dev.groupme.com/bots
+
+### Testing
+
+Simple testing:
+
+```
+echo "this is a test" | /usr/local/sbin/email2GroupMe.py -c /etc/email2GroupMe.ini
+```
+
+
